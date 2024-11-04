@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Forward to...</title>
+<script>
+const newUrl = decodeURIComponent(location.hash.slice(1));
+
+if (newUrl) {
+  location.replace(newUrl);
+}
+</script>
